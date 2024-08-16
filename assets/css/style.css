@@ -1,0 +1,150 @@
+/* BODY */
+body{
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* *********************************************************************** */
+
+/* HEADER */
+/* header{
+    border: solid 1px red;
+} */
+
+header h1{
+    /* border: solid 1px green; */
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 7px;
+}
+/* *********************************************************************** */
+
+/* Clase para agregar la imagen de una iguana con ancho total de la página */
+.iguana_grande{
+    /* border: solid 1px red; */
+    background-image: url(../imgs/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 727px;
+    width: 100%;
+}
+/* *********************************************************************** */
+
+
+/* Texto + iguana */
+/* section{
+    border: solid 6px blue;
+} */
+
+section div{
+    /* border: solid 3px green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section div div{
+    /* border: solid 1px orange; */
+    flex-direction: column;
+}
+
+section div div p{
+    width: 100%;
+    text-align: left;
+}
+.texto{
+    width: 60%;
+    padding: 25px 80px 25px 130px;
+}
+
+section div div img{
+    width: 100%;
+}
+.iguana{
+    width: 40%;
+    padding: 25px 130px 25px 80px;
+}
+/* *********************************************************************** */
+
+/* Características */
+.caracteristicas{
+    background-color: #1E1A13 ;
+    text-align: center;
+    padding: 20px;
+}
+
+.iconos{
+    display: flex;
+    gap: 220px;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.caracteristicas h2{
+    padding-top: 65px;
+    padding-bottom: 50px;
+    margin: 0px;
+    font-size: 2em;
+}
+
+h3{
+    font-weight: 300;
+}
+
+.color_hover:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+/* *********************************************************************** */
+
+/* Galería */
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.contenedor_padre{
+    /* border: solid 3px red; */
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 16px;
+}
+
+/* section article{
+    border: solid 1px orange;
+} */
+
+section article img{
+    width: 100%;
+}
+
+.cambio_cursor{
+    cursor: pointer;
+}
+/* *********************************************************************** */
+
+/* FOOTER */
+footer{
+    /* border: solid 4px blue; */
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+/* *********************************************************************** */
